@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cabecalho">
+            <button type="button" class="elemento" data-element="italic">
+                <img src="italic-text.svg" alt="">
+            </button>
+            <button type="button" class="elemento" data-element="bold">
+                <img src="bold-text-option.svg" alt="">
+            </button>
+            <button type="button" class="elemento" data-element="underline">
+                <u>U</u>
+            </button>
+            <button type="button" class="elemento" data-element="insertUnorderedList">
+                <img src="list.png" alt="">
+            </button>
+            <button type="button" class="elemento" data-element="insertOrderedList">
+                <img src="Screenshot_1.png" alt="">
+            </button>
+            <button type="button" class="elemento" data-element="justifyLeft">
+                <img src="left-align.png" alt="">
+            </button>
+            <button type="button" class="elemento" data-element="justifyCenter">
+                <img src="center-align.png" alt="">
+            </button>
+            <button type="button" class="elemento" data-element="justifyRight">
+                <img src="right-align.png" alt="">
+            </button>
+            <button type="button" class="elemento" data-element="justifyFull">
+                <img src="justification.png" alt="">
+            </button>
+        </div>
+        <div class="caixadetexto" contenteditable="true">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
